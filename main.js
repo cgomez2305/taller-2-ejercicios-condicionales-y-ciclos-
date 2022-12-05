@@ -162,7 +162,7 @@ presupuestoAnual=+prompt('ingrese el presupeusto anual')
 psiquiatria=+prompt('ingrese el porcenta de psiquiatria ')
 pediatria=+prompt('ingrese el pocenta de pediatria')
 traumatologia=+prompt('ingrese el porcenta de traumatologia')
-suma=+(psiquiatria+pediatria+traumatologia))
+suma=+(psiquiatria+pediatria+traumatologia)
 if(suma==100){
     document.write(`el presuspuesto de psiquiatria es ${(psiquiatria/100)*presupuestoAnual} el presupuesto de pediatria es ${(pediatria/100)*presupuesto} el presupuesto de traumatologia es ${(traumatologia/100)*presupuestoAnual}`)
 }else{
