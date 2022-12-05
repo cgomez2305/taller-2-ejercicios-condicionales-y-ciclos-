@@ -38,47 +38,26 @@ switch (variable) {
 }
 switch(numero){
     case 1 :
-        if(numero==1){
-            document.write('uno')
-        }
+        document.write('uno')
     break
     case 2:
-        if (numero=2){
-            document.write('dos')
-        }
+        document.write('dos')
     case 3:
-        if (numero=3){
-            document.write('tres')
-        }
+        document.write('tres')
     case 4:
-    if (numero=4){
-    document.write('cuatro')
-    }
+        document.write('cuatro')
     case 5:
-    if (numero=5){
-    document.write('cinco')
-    }
+        document.write('cinco')
     case 6:
-    if (numero=6){
-    document.write('seis')
-    }
+        document.write('seis')
     case 7:
-    if (numero=7){
         document.write('siete')
-    }
     case 8:
-    if (numero=8){
         document.write('ocho')
-    }
     case 9:
-    if (numero=9){
         document.write('9')
-    }
     case 10:
-    if (numero=10){
         document.write('diez')
-    }
-    
 }
 
 //EJERCICIO 4 
