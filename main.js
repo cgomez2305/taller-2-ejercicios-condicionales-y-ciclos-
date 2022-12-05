@@ -119,7 +119,7 @@ a=1
 cont=0
 cont1=0
 
-for(let i = 0; index < 3; index++) {
+for(let i = 0; i < 3; i++) {
     notasPrevio=parseFloat(`ingrese la nota del previo ${i+1}`)
     while(notasPrevio>1.0 && notasPrevio<=5.0){
         notasPrevio=parseFloat(`ingrese la nota del previo ${i+1} dentro del rango de 1.0 a 5.0: `) }
