@@ -19,19 +19,14 @@ numero=+prompt('ingrese un numero')
 while(numero<1 && numero>11){
     numero=+prompt('ingrese un numero entre 1-10')
 }
-
-switch (numero) {
-    case 1:
-        if (numero%3==0 || numero==1){
+variable=+(numero%2)
+switch (variable) {
+    case 0:
             alert('el numero es impar')
-        }
       break;
-    case 2:
-        if(numero%2==0){
+    case 1:
             alert('el numero es par')
-        }
       break;
-
   }
 
   //EJERCICIO 3
