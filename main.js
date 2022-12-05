@@ -39,25 +39,35 @@ switch (variable) {
 switch(numero){
     case 1 :
         document.write('uno')
+        break
     break
     case 2:
         document.write('dos')
+        break
     case 3:
         document.write('tres')
+        break
     case 4:
         document.write('cuatro')
+        break
     case 5:
         document.write('cinco')
+        break
     case 6:
         document.write('seis')
+        break
     case 7:
         document.write('siete')
+        break
     case 8:
         document.write('ocho')
+        break
     case 9:
         document.write('9')
+        break
     case 10:
         document.write('diez')
+        break
 }
 
 //EJERCICIO 4 
